@@ -28,11 +28,13 @@ const styles = {
 
 const App = ({ classes }) => (
   <div className={classes.App}>
-    <Header title="A nOS dApp starter-kit!" />
+    <Header title="Nexien nOS dApp for exchanging coins" />
     <p className={classes.intro}>
-      To get started, edit <code>src/views/App/index.js</code> and save to reload.
+      dApp enables exchanging coins peer to peer with ratios than are not on exchanges! 
     </p>
-    <p className={classes.intro}>Or test out the following demo functions!</p>
+    <p className={classes.intro}>For example a dogecon/garlicon ratio doesn't exist on any exchange</p>
+    <p className={classes.intro}>but you can trade this ratio directly with someone else in this dApp.</p>
+    <p className={classes.intro}>You can trade all unexisting NP5 token ratios in this dApp.</p>
     <hr className={classes.lineBreak} />
     <NOSActions />
   </div>
