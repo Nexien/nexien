@@ -6,7 +6,8 @@ import nosLogo from "./../../assets/logo.png";
 
 const styles = {
   logoContainer: {
-    display: "block",
+    //display: "block",
+    display: "none",
     maxWidth: "200px",
     margin: "32px auto",
     position: "relative"

@@ -14,10 +14,10 @@ const styles = {
     backgroundColor: "#ffffff"
   },
   App: {
-    textAlign: "center"
+    textAlign: "left"
   },
   intro: {
-    fontSize: "large"
+    fontSize: "medium"
   },
   lineBreak: {
     width: "75%",
@@ -30,7 +30,7 @@ const App = ({ classes }) => (
   <div className={classes.App}>
     <Header title="Nexien nOS dApp for exchanging coins" />
     <p className={classes.intro}>
-      dApp enables exchanging coins peer to peer with ratios than are not on exchanges! 
+      dApp enables exchanging coins peer to peer with ratios than are not on exchanges!
     </p>
     <p className={classes.intro}>For example a dogecon/garlicon ratio doesn't exist on any exchange</p>
     <p className={classes.intro}>but you can trade this ratio directly with someone else in this dApp.</p>
