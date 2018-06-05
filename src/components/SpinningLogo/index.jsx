@@ -6,7 +6,7 @@ import nosLogo from "./../../assets/logo.png";
 
 const styles = {
   logoContainer: {
-    //display: "block",
+    //  display: "block",
     display: "none",
     maxWidth: "200px",
     margin: "32px auto",
@@ -24,7 +24,12 @@ const styles = {
 
 const SpinningLogo = ({ classes }) => (
   <div className={classes.logoContainer}>
-    <img src={nosLogo} className={classes.nosLogo} alt="nOS logo" key="nosLogo" />
+    <img
+      src={nosLogo}
+      className={classes.nosLogo}
+      alt="nOS logo"
+      key="nosLogo"
+    />
   </div>
 );
 
